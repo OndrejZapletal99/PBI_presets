@@ -1,0 +1,530 @@
+﻿{
+    "name": "Demo_preset_1",
+    "$schema": "https://raw.githubusercontent.com/microsoft/powerbi-desktop-samples/refs/heads/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.141.json",
+    "textClasses": {
+        "label": {
+            "color": "#000000",
+            "fontFace": "Arial",
+            "fontSize": 8
+        },
+        "callout": {
+            "color": "#000000",
+            "fontFace": "Arial",
+            "fontSize": 25
+        },
+        "title": {
+            "color": "#000000",
+            "fontFace": "Arial"
+        },
+        "header": {
+            "color": "#000000"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "*": {
+                "border": [
+                    {
+                        "show": true
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "foreground": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "outspacePane": [
+                    {
+                        "checkboxAndApplyColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ],
+                "filterCard": [
+                    {
+                        "$id": "Applied",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    },
+                    {
+                        "$id": "Available",
+                        "foregroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "slicer": {
+            "*": {
+                "stylePreset": [
+                    {"name": "Demo_preset_1"},
+                    {"name": "Demo_preset_2"}
+                ]
+            },
+            "Demo_preset_1": {
+                "general": [
+                    {
+                        "outlineColor": { "solid": { "color": "#444444" }},
+                        "outlineWeight": 1,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "data": [
+                    {
+                        "mode": "Basic"
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": false,
+                        "singleSelect": true
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "fontColor": { "solid": { "color": "#000000" }},
+                        "background": { "solid": { "color": "#FFFFFF" }},
+                        "outline": "None",
+                        "textSize": 10,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "items": [
+                    {
+                        "fontColor": { "solid": { "color": "#000000" }},
+                        "background": { "solid": { "color": "#FFFFFF" }},
+                        "outline": "None",
+                        "textSize": 11,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "slider": [
+                    { 
+                        "color": { "solid": { "color": "#000000" }}
+                    }
+                ],
+                "background": [
+                    {
+                        "transparency": 100
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false,
+                        "background": { "solid": { "color": "#444444" }},
+                        "border": { "solid": { "color": "#444444" }},
+                        "transparency": 20,
+                        "foreground": { "solid": { "color": "#444444" }},
+                        "showVisualInformationButton": false,
+                        "showVisualWarningButton": false,
+                        "showVisualErrorButton": false,
+                        "showDrillRoleSelector": false,
+                        "showDrillUpButton": false,
+                        "showDrillToggleButton": false,
+                        "showDrillDownLevelButton": false,
+                        "showDrillDownExpandButton": false,
+                        "showPinButton": false,
+                        "showFocusModeButton": false,
+                        "showFilterRestatementButton": false,
+                        "showSeeDataLayoutToggleButton": false,
+                        "showOptionsMenu": false,
+                        "showTooltipButton": false
+                    }
+                ]
+            },
+            "Demo_preset_2": {
+                "general": [
+                    {
+                        "outlineColor": { "solid": { "color": "#FF0000" }},
+                        "outlineWeight": 2,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "data": [
+                    {
+                        "mode": "Basic"
+                    }
+                ],
+                "selection": [
+                    {
+                        "selectAllCheckboxEnabled": false,
+                        "singleSelect": true
+                    }
+                ],
+                "header": [
+                    {
+                        "show": true,
+                        "fontColor": { "solid": { "color": "#FFFFFF" }},
+                        "background": { "solid": { "color": "#000000" }},
+                        "outline": "None",
+                        "textSize": 10,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "items": [
+                    {
+                        "fontColor": { "solid": { "color": "#333333" }},
+                        "background": { "solid": { "color": "#CCCCCC" }},
+                        "outline": "None",
+                        "textSize": 11,
+                        "fontFamily": "Segoe UI"
+                    }
+                ],
+                "slider": [
+                    { 
+                        "color": { "solid": { "color": "#333333" }}
+                    }
+                ],
+                "background": [
+                    {
+                        "transparency": 90
+                    }
+                ],
+                "visualHeader": [
+                    {
+                        "show": false,
+                        "background": { "solid": { "color": "#333333" }},
+                        "border": { "solid": { "color": "#333333" }},
+                        "transparency": 30,
+                        "foreground": { "solid": { "color": "#333333" }},
+                        "showVisualInformationButton": false,
+                        "showVisualWarningButton": false,
+                        "showVisualErrorButton": false,
+                        "showDrillRoleSelector": false,
+                        "showDrillUpButton": false,
+                        "showDrillToggleButton": false,
+                        "showDrillDownLevelButton": false,
+                        "showDrillDownExpandButton": false,
+                        "showPinButton": false,
+                        "showFocusModeButton": false,
+                        "showFilterRestatementButton": false,
+                        "showSeeDataLayoutToggleButton": false,
+                        "showOptionsMenu": false,
+                        "showTooltipButton": false
+                    }
+                ]
+            }
+        },
+        "donutChart": {
+            "*": {
+                "stylePreset": [
+                    {"name": "Demo_preset_1"},
+                    {"name": "Demo_preset_2"}
+                ]
+            },
+            "Demo_preset_1": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#000000"}},
+                        "outlineWeight": 1, 
+                        "keepLayerOrder": true 
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": { "solid": { "color": "#000000" } },
+                        "showAllDataPoints": true 
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true, 
+                        "color": { "solid": { "color": "#000000" } },
+                        "fontSize": 10 
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": { "solid": { "color": "#000000" } }
+                    }
+                ],
+                "slices": [
+                    {
+                        "color": { "solid": { "color": "#FFFFFF" } },
+                        "transparency":0
+                    }
+                ]
+            },
+            "Demo_preset_2": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#FF0000"}},
+                        "outlineWeight": 2, 
+                        "keepLayerOrder": true 
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": { "solid": { "color": "#338833" } },
+                        "showAllDataPoints": true 
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true, 
+                        "color": { "solid": { "color": "#338833" } },
+                        "fontSize": 10 
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": { "solid": { "color": "#338833" } }
+                    }
+                ],
+                "slices": [
+                    {
+                        "color": { "solid": { "color": "#000000" } },
+                        "transparency":20
+                    }
+                ]
+            }
+        },
+        "pieChart": {
+            "*": {
+                "stylePreset": [
+                    {"name": "Demo_preset_1"},
+                    {"name": "Demo_preset_2"}
+                ]
+            },
+            "Demo_preset_1": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#000000"}},
+                        "outlineWeight": 1,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {"solid": {"color": "#000000"}},
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#000000"}},
+                        "fontSize": 10,
+                        "labelDisplayUnits": 0,
+                        "labelPrecision": 2
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": {"solid": {"color": "#000000"}}
+                    }
+                ],
+                "slices": [
+                    {
+                        "color": {"solid": {"color": "#FFFFFF"}},
+                        "transparency": 0
+                    }
+                ]
+            },
+            "Demo_preset_2": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#333333"}},
+                        "outlineWeight": 1,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {"solid": {"color": "#333333"}},
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#FF0000"}},
+                        "fontSize": 10,
+                        "labelDisplayUnits": 0,
+                        "labelPrecision": 2
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": {"solid": {"color": "#333333"}}
+                    }
+                ],
+                "slices": [
+                    {
+                        "color": {"solid": {"color": "#CCCCCC"}},
+                        "transparency": 10
+                    }
+                ]
+            }
+        },
+        "lineChart": {
+            "*": {
+                "stylePreset": [
+                    {"name": "Demo_preset_1"},
+                    {"name": "Demo_preset_2"}
+                ]
+            },
+            "Demo_preset_1": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#000000"}},
+                        "outlineWeight": 1,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {"solid": {"color": "#000000"}},
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#000000"}},
+                        "fontSize": 10,
+                        "labelDisplayUnits": 0,
+                        "labelPrecision": 2
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": {"solid": {"color": "#000000"}}
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "title": "X Axis",
+                        "labelColor": {"solid": {"color": "#000000"}},
+                        "gridlines": true
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "title": "Y Axis",
+                        "labelColor": {"solid": {"color": "#000000"}},
+                        "gridlines": true
+                    }
+                ],
+                "markers": [
+                    {
+                        "show": true,
+                        "size": 5,
+                        "color": {"solid": {"color": "#000000"}}
+                    }
+                ],
+                "trend": [
+                    {
+                        "show": true,
+                        "lineColor": {"solid": {"color": "#000000"}},
+                        "lineStyle": "solid"
+                    }
+                ]
+            },
+            "Demo_preset_2": {
+                "general": [
+                    {
+                        "outlineColor": {"solid": {"color": "#333333"}},
+                        "outlineWeight": 1,
+                        "keepLayerOrder": true
+                    }
+                ],
+                "dataPoint": [
+                    {
+                        "defaultColor": {"solid": {"color": "#333333"}},
+                        "showAllDataPoints": true
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "color": {"solid": {"color": "#333333"}},
+                        "fontSize": 10,
+                        "labelDisplayUnits": 0,
+                        "labelPrecision": 2
+                    }
+                ],
+                "legend": [
+                    {
+                        "show": true,
+                        "position": "Bottom",
+                        "showTitle": true,
+                        "titleText": "Legend",
+                        "fontSize": 8,
+                        "labelColor": {"solid": {"color": "#338833"}}
+                    }
+                ],
+                "categoryAxis": [
+                    {
+                        "show": true,
+                        "title": "X Axis",
+                        "labelColor": {"solid": {"color": "#338833"}},
+                        "gridlines": true
+                    }
+                ],
+                "valueAxis": [
+                    {
+                        "show": true,
+                        "title": "Y Axis",
+                        "labelColor": {"solid": {"color": "#333333"}},
+                        "gridlines": true
+                    }
+                ],
+                "markers": [
+                    {
+                        "show": true,
+                        "size": 5,
+                        "color": {"solid": {"color": "#333333"}}
+                    }
+                ],
+                "trend": [
+                    {
+                        "show": true,
+                        "lineColor": {"solid": {"color": "#FF0000"}},
+                        "lineStyle": "solid"
+                    }
+                ]
+            }
+        }
+    }
+}
