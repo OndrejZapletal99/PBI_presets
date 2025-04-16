@@ -99,7 +99,7 @@
                         "background": { "solid": { "color": "#FFFFFF" }},
                         "outline": "None",
                         "textSize": 10,
-                        "fontFamily": "Segoe UI"
+                        "fontFamily": "Arial"
                     }
                 ],
                 "items": [
@@ -108,7 +108,7 @@
                         "background": { "solid": { "color": "#FFFFFF" }},
                         "outline": "None",
                         "textSize": 11,
-                        "fontFamily": "Segoe UI"
+                        "fontFamily": "Arial"
                     }
                 ],
                 "slider": [
@@ -171,7 +171,7 @@
                         "background": { "solid": { "color": "#000000" }},
                         "outline": "None",
                         "textSize": 10,
-                        "fontFamily": "Segoe UI"
+                        "fontFamily": "Arial"
                     }
                 ],
                 "items": [
@@ -180,7 +180,7 @@
                         "background": { "solid": { "color": "#CCCCCC" }},
                         "outline": "None",
                         "textSize": 11,
-                        "fontFamily": "Segoe UI"
+                        "fontFamily": "Arial"
                     }
                 ],
                 "slider": [
@@ -525,6 +525,84 @@
                     }
                 ]
             }
+        },
+        "pivotTable": {
+        "*": {
+            "stylePreset": [
+                { "name": "Demo_preset_1" }
+            ]
+        },
+        "Demo_preset_1": {
+            "general": [
+                {
+                    "outlineColor": { "solid": { "color": "#000000" } }, 
+                    "outlineWeight": 2, 
+                    "keepLayerOrder": true 
+                }
+            ],
+            "header": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#FFFFFF" } }, 
+                    "textSize": 12, 
+                    "fontFamily": "Arial", 
+                    "outline": "Solid"
+                }
+            ],
+            "values": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#FFFFFF" } },
+                    "textSize": 8,
+                    "fontFamily": "Arial",
+                    "outline": "Solid"
+                }
+            ],
+            "subtotals": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#F0F0F0" } },
+                    "textSize": 10,
+                    "fontFamily": "Arial",
+                    "outline": "Solid"
+                }
+            ],
+            "totals": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } }, 
+                    "background": { "solid": { "color": "#D9D9D9" } }, 
+                    "textSize": 12, 
+                    "fontFamily": "Arial",
+                    "outline": "Solid"
+                }
+            ],
+            "gridlines": [
+                {
+                    "color": { "solid": { "color": "#CCCCCC" } },
+                    "style": "Solid",
+                    "weight": 2
+                }
+            ],
+            "rowHeaders": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } },
+                    "background": { "solid": { "color": "#FFFFFF" } },
+                    "textSize": 10,
+                    "fontFamily": "Arial",
+                    "outline": "Solid" 
+                }
+            ],
+            "columnHeaders": [
+                {
+                    "fontColor": { "solid": { "color": "#000000" } }, 
+                    "background": { "solid": { "color": "#FFFFFF" } }, 
+                    "textSize": 10, 
+                    "fontFamily": "Arial",
+                    "outline": "None"
+                }
+            ]
         }
+        
     }
+}
 }
